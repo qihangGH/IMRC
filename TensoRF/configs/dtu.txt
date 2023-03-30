@@ -1,0 +1,42 @@
+dataset_name = dtu
+datadir = /lkq/lkq/NeuS/public_data
+expname =  tensorf_dtu_VM_relu_black
+basedir = ./log
+
+n_iters = 30000
+batch_size = 4096
+
+N_voxel_init = 2097156 # 128**3
+N_voxel_final = 27000000 # 300**3
+upsamp_list = [2000,3000,4000,5500,7000]
+update_AlphaMask_list = [2000,4000]
+
+N_vis = 5
+vis_every = 10000
+
+render_test = 1
+
+n_lamb_sigma = [16,16,16]
+n_lamb_sh = [48,48,48]
+#n_lamb_sigma = [8,8,8]
+#n_lamb_sh = [24,24,24]
+model_name = TensorVMSplit
+
+
+shadingMode = MLP_Fea
+#fea2denseAct = softplus
+fea2denseAct = relu
+
+view_pe = 2
+fea_pe = 2
+
+L1_weight_inital = 1e-3
+L1_weight_rest = 2e-3
+
+# please uncomment following configuration if hope to training on cp model
+# model_name = TensorCP
+# n_lamb_sigma = [96]
+# n_lamb_sh = [288]
+# N_voxel_final = 125000000 # 500**3
+# L1_weight_inital = 1e-5
+# L1_weight_rest = 1e-5

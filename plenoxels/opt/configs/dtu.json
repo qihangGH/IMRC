@@ -1,0 +1,18 @@
+{
+    "reso": "[[256, 256, 256], [512, 512, 512]]",
+    "n_iters": 153600,
+    "upsamp_every": 89600,
+    "near_clip": 0.35,
+    "lr_sigma": 3e1,
+    "lr_sh": 1e-2,
+    "lr_sigma_delay_steps": 0,
+    "thresh_type": "weight",
+    "weight_thresh": 1.28,
+    "lambda_tv": 5e-3,
+    "lambda_tv_sh": 5e-3,
+    "lambda_sparsity": 1e-11,
+    "background_brightness": 0,
+    "tv_early_only": 0,
+    "tv_decay": 0.5,
+    "llffhold": 8
+}
