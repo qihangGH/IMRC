@@ -1,6 +1,6 @@
 # Evaluate Geometry of Radiance Field with Low-frequency Color Prior
 
-Qihang Fang*, Yafei Song*, Keqiang Li, Li Shen, Gang Xiong, and Liefeng Bo
+Qihang Fang*, Yafei Song*, Keqiang Li, Li Shen, Huaiyu Wu, Gang Xiong, and Liefeng Bo
 
 \* Co-first author
 
@@ -148,7 +148,7 @@ Cite as below if you find this repository helpful to your project:
 ```
 @misc{fang2023evaluate,
       title={Evaluate Geometry of Radiance Field with Low-frequency Color Prior}, 
-      author={{Qihang Fang and Yafei Song} and Keqiang Li and Li Shen and Gang Xiong and Liefeng Bo},
+      author={{Qihang Fang and Yafei Song} and Keqiang Li and Li Shen and Huaiyu Wu and Gang Xiong and Liefeng Bo},
       year={2023},
       eprint={},
       archivePrefix={arXiv},
