@@ -8,7 +8,7 @@ Chinese Academy of Sciences, Institute of Automation
 
 Alibaba DAMO Academy
 
-arXiv: 
+arXiv: https://arxiv.org/abs/2304.04351
 
 
 ## About IMRC
@@ -150,7 +150,7 @@ Cite as below if you find this repository helpful to your project:
       title={Evaluate Geometry of Radiance Field with Low-frequency Color Prior}, 
       author={{Qihang Fang and Yafei Song} and Keqiang Li and Li Shen and Huaiyu Wu and Gang Xiong and Liefeng Bo},
       year={2023},
-      eprint={},
+      eprint={2304.04351},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
