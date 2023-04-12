@@ -48,9 +48,9 @@ To evaluate the density field of a model,
 1) we first export a discrete density volume from the original model, including JaxNeRF, Plenoxels, DVGO, and TensoRF. 
 2) Then evaluate the density volume and calculate the IMRC metric.
 
-To export a density volume, we add a file named `export_density.py` to JaxNeRF, Plenoxels, DVGO, and TensoRF. Please follow their repositories to setup the environments for [JaxNeRF](https://github.com/google-research/google-research/tree/master/jaxnerf), [DVGO](https://github.com/sunset1995/DirectVoxGO), and [TensoRF](https://github.com/apchenstu/TensoRF).
+To export a density volume, we add a file named `export_density.py` to JaxNeRF, Plenoxels, DVGO, and TensoRF. Please follow their repositories to set up the environments for [JaxNeRF](https://github.com/google-research/google-research/tree/master/jaxnerf), [DVGO](https://github.com/sunset1995/DirectVoxGO), and [TensoRF](https://github.com/apchenstu/TensoRF).
 
-Then, the code to calculate the IMRC metric is based on [Plenoxels](https://github.com/sxyu/svox2). Please setup the environment for IMRC as follows.
+Then, the code to calculate the IMRC metric is based on [Plenoxels](https://github.com/sxyu/svox2). Please set up the environment for IMRC as follows.
 
 We recommend using Anaconda to set up the environment:
 ```sh
@@ -69,7 +69,7 @@ To install the main library, simply run
 ```
 pip install -e . --verbose
 ```
-In the directory `plenoxels`.
+in the directory `plenoxels`.
 
 ## Data
 
