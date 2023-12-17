@@ -1,4 +1,4 @@
-# Evaluate Geometry of Radiance Field with Low-frequency Color Prior
+# Evaluate Geometry of Radiance Fields with Low-frequency Color Prior
 
 Qihang Fang*, Yafei Song*, Keqiang Li, Li Shen, Huaiyu Wu, Gang Xiong, and Liefeng Bo
 
@@ -12,16 +12,7 @@ arXiv: https://arxiv.org/abs/2304.04351
 
 
 ## About IMRC
-Radiance field is an effective representation of 3D scenes, which has been widely adopted in novel-view synthesis and 3D reconstruction.
-It is still an open and challenging problem to evaluate the geometry, i.e., the density field, as the ground-truth is almost impossible to be obtained.
-One alternative indirect solution is to transform the density field into a point-cloud and compute its Chamfer Distance with the scanned ground-truth.
-However, many widely-used datasets have no point-cloud ground-truth since the scanning process along with the equipment is expensive and complicated.
-To this end, we propose a novel metric, named Inverse Mean Residual Color (IMRC), which can evaluate the geometry only with the observation images.
-Our key insight is that the better the geometry is, the lower-frequency the computed color field is.
-From this insight, given reconstructed density field and the observation images, we design a closed-form method to approximate the color field with low-frequency spherical harmonics and compute the inverse mean residual color. 
-Then the higher the IMRC, the better the geometry.
-Qualitative and quantitative experimental results verify the effectiveness of our proposed IMRC metric.
-We also benchmark several state-of-the-art methods using IMRC to promote future related research.
+A radiance field is an effective representation of 3D scenes, which has been widely adopted in novel-view synthesis and 3D reconstruction. It is still an open and challenging problem to evaluate the geometry, i.e., the density field, as the ground-truth is almost impossible to obtain. One alternative indirect solution is to transform the density field into a point-cloud and compute its Chamfer Distance with the scanned ground-truth. However, many widely-used datasets have no point-cloud ground-truth since the scanning process along with the equipment is expensive and complicated. To this end, we propose a novel metric, named Inverse Mean Residual Color (IMRC), which can evaluate the geometry only with the observation images. Our key insight is that the better the geometry, the lower-frequency the computed color field. From this insight, given a reconstructed density field and observation images, we design a closed-form method to approximate the color field with low-frequency spherical harmonics, and compute the inverse mean residual color. Then the higher the IMRC, the better the geometry. Qualitative and quantitative experimental results verify the effectiveness of our proposed IMRC metric. We also benchmark several state-of-the-art methods using IMRC to promote future related research.
 
 <center>
 
