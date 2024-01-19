@@ -138,7 +138,7 @@ bash calc_cd_dvgo.sh
 Cite as below if you find this repository helpful to your project:
 ```
 @misc{fang2023evaluate,
-      title={Evaluate Geometry of Radiance Field with Low-frequency Color Prior}, 
+      title={Evaluate Geometry of Radiance Fields with Low-frequency Color Prior}, 
       author={{Qihang Fang and Yafei Song} and Keqiang Li and Li Shen and Huaiyu Wu and Gang Xiong and Liefeng Bo},
       year={2023},
       eprint={2304.04351},
